@@ -48,7 +48,7 @@
     if (!_textContantLabel) {
         _textContantLabel      = [[UILabel alloc] init];
         _textContantLabel.font = [UIFont systemFontOfSize:16];
-        _textContantLabel.textColor     = DEFAULT_3333_COLOR;
+        _textContantLabel.textColor     = [UIColor redColor];
         _textContantLabel.textAlignment = NSTextAlignmentCenter;
         _textContantLabel.numberOfLines = 1;
     }

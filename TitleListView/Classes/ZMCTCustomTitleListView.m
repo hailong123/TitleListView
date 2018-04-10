@@ -345,7 +345,7 @@ IB_DESIGNABLE
         titleLable.text            = _sectionTitle;
         titleLable.textAlignment   = NSTextAlignmentCenter;
         titleLable.backgroundColor = [UIColor whiteColor];
-        titleLable.textColor       = DEFAULT_3333_COLOR;
+        titleLable.textColor       = [UIColor redColor];
         
         [_tableHeardView addSubview:titleLable];
         

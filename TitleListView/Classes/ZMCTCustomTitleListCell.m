@@ -91,9 +91,9 @@
     _titleListModel         = titleListModel;
     self.subTitleLabel.text = titleListModel.title;
     
-    [self.selectButton setImage:[UIImage zmc_imageNamed:titleListModel.normalImgName]
+    [self.selectButton setImage:[UIImage imageNamed:titleListModel.normalImgName]
                        forState:UIControlStateNormal];
-    [self.selectButton setImage:[UIImage zmc_imageNamed:titleListModel.selectImgName]
+    [self.selectButton setImage:[UIImage imageNamed:titleListModel.selectImgName]
                        forState:UIControlStateSelected];
     
     //状态
