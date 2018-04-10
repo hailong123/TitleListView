@@ -292,8 +292,8 @@ IB_DESIGNABLE
         cancelButton.titleLabel.font = [UIFont systemFontOfSize:16];
         
         [cancelButton setTitle:ZMTCancelButtonTitle forState:UIControlStateNormal];
-        [cancelButton setTitleColor:DEFAULT_6666_COLOR forState:UIControlStateNormal];
-        [cancelButton setTitleColor:DEFAULT_6666_COLOR forState:UIControlStateHighlighted];
+        [cancelButton setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+        [cancelButton setTitleColor:[UIColor redColor] forState:UIControlStateHighlighted];
         
         [cancelButton addTarget:self
                          action:@selector(clickFooterViewButton:)
@@ -313,7 +313,7 @@ IB_DESIGNABLE
         makeSureButton.titleLabel.font = [UIFont systemFontOfSize:16];
         
         [makeSureButton setTitle:ZMTMakeSureButtonTitle forState:UIControlStateNormal];
-        [makeSureButton setTitleColor:DEFAULT_RED_COLOR forState:UIControlStateNormal];
+        [makeSureButton setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
         [makeSureButton setTitleColor:[UIColor grayColor] forState:UIControlStateHighlighted];
         
         
