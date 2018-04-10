@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TitleListView_Example' do
+  pod 'TitleListView', :path => '../'
+
+  target 'TitleListView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
