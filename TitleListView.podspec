@@ -27,7 +27,7 @@ TODO: Add long description of the pod here.
   s.author           = { '771145867@qq.com' => '771145867@qq.com' }
   s.source           = { :git => 'https://github.com/771145867@qq.com/TitleListView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-  prefix_header_file = 'import <Masonry/Masonry.h>'
+  prefix_header_file = 'TitleListView/Classes/HLPrefixHeader.pch'
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'TitleListView/Classes/**/*'
